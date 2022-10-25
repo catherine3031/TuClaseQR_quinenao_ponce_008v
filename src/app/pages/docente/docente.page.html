@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()" color="primary">
+        <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+   <ion-title color="primary">Docente</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img class='logo' src="assets/duoc.jpg" class="ion-padding">
+  <ion-card>
+    <ion-card-content>
+      <ion-button type="submit" class="btnreg" expand="block" routerLink="/avatar">
+      Generar QR </ion-button>
+      
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-button type="logout" class="btnreg" expand="block" routerLink="/login"><ion-icon name="exit-sharp"></ion-icon>
+      Cerrar Session </ion-button>
+  </ion-card>
+
+
+</ion-content>
+
+
+
